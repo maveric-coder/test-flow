@@ -4,7 +4,7 @@ jobs:
   first-job:
     runs-on: ubuntu
     steps:
-    - name: Say Hello
-      run: echo "Hello It is working"
-    - name: exiting now
-      run: echo "test ran completed"
+      - name: Say Hello
+        run: echo "Hello It is working"
+      - name: exiting now
+        run: echo "test ran completed"
