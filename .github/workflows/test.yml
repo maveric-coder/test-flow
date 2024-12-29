@@ -9,5 +9,5 @@ jobs:
       - name: exiting now
         run: echo "test ran completed"
       - name: update ubuntu
-        run: apt-get update -y
+        run: sudo apt-get update -y
 
