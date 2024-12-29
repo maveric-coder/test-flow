@@ -8,3 +8,10 @@ jobs:
         run: echo "Hello It is working"
       - name: exiting now
         run: echo "test ran completed"
+
+  second-job: update ubuntu
+    runs-on: ubuntu-latest
+    steps:
+      - name: update command
+        run: apt-get update -y
+
