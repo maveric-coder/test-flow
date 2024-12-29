@@ -13,5 +13,5 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - name: update command
-          run: apt-get update -y
+          run: sudo apt-get update -y
 
