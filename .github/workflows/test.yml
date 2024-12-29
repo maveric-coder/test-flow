@@ -1,13 +1,17 @@
 name: First Workflow
 on: workflow_dispatch
 jobs:
-  first-job:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Say Hello
-        run: echo "Hello It is working"
-      - name: exiting now
-        run: echo "test ran completed"
-      - name: update ubuntu
-        run: sudo apt-get update -y
+  - first-job:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Say Hello
+          run: echo "Hello It is working"
+        - name: exiting now
+          run: echo "test ran completed"
+
+  - second-job: update ubuntu
+      runs-on: ubuntu-latest
+      steps:
+        - name: update command
+          run: apt-get update -y
 
