@@ -12,4 +12,4 @@ jobs:
   test:
     runs-on: ["${{ inputs.chosen-os }}-latest"]
     steps:
-    - run: echo Hello world!,"${{ inputs.chosen-os }}
+    - run: echo Hello world!,${{ inputs.chosen-os }}
