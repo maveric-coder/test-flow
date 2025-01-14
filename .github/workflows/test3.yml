@@ -1,4 +1,4 @@
-pon:
+on:
   workflow_dispatch:
     inputs:
       chosen-os:
