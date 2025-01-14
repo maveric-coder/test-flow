@@ -13,3 +13,4 @@ jobs:
     runs-on: ["${{ inputs.chosen-os }}-latest"]
     steps:
     - run: echo Hello world!,${{ inputs.chosen-os }}
+    - run: ./.github/actions/Explore-GitHub-Actions
