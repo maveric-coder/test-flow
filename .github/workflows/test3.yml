@@ -10,6 +10,6 @@ on:
 
 jobs:
   test:
-    runs-on: [ubuntu-latest, "${{ inputs.chosen-os }}"]
+    runs-on: ["${{ inputs.chosen-os }}-latest"]
     steps:
     - run: echo Hello world!
